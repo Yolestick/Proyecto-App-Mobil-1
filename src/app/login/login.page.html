@@ -1,0 +1,40 @@
+<ion-content [fullscreen]="true">
+  <div class="flex-center">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title color= #FFB800 >Login</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <ion-item>
+          <ion-input 
+            label="Username" 
+            labelPlacement="stacked" 
+            [clearOnEdit]="true" 
+            fill="solid" 
+            placeholder="Enter username">
+          </ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input 
+            label="Password" 
+            type="password" 
+            value="password"  
+            labelPlacement="stacked" 
+            fill="solid" 
+            placeholder="Enter password">
+          </ion-input>
+        </ion-item>
+        <ion-button color="dark" fill="clear" size="full">
+          Forgot username/password
+        </ion-button>
+        <ion-button shape="round" color="dark" size="full" >
+          Enter
+        </ion-button>
+        <ion-button shape="round" color="dark" fill="clear" size="full" >
+          Register
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

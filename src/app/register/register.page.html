@@ -1,0 +1,31 @@
+<ion-content [fullscreen]="true">
+  <div class="flex-center">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title color= #FFB800 >Register</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <ion-item>
+          <ion-input 
+            label="Username" 
+            labelPlacement="floating" 
+            [clearOnEdit]="true" 
+            placeholder="Enter username">
+          </ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input 
+            label="Password" 
+            type="password"  
+            labelPlacement="floating" 
+            placeholder="Enter password">
+          </ion-input>
+        </ion-item>
+        <ion-button color="dark" fill="clear" size="full">
+          Register
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

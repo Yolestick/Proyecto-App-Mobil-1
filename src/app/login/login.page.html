@@ -25,13 +25,13 @@
             placeholder="Enter password">
           </ion-input>
         </ion-item>
-        <ion-button color="dark" fill="clear" size="full">
+        <ion-button color="dark" fill="clear" size="full"  [routerLink]="['/recuperate']" routerLinkActive="router-link-active" >
           Forgot username/password
         </ion-button>
-        <ion-button shape="round" color="dark" size="full" >
+        <ion-button shape="round" color="dark" size="full" [routerLink]="['/hub']" routerLinkActive="router-link-active">
           Enter
         </ion-button>
-        <ion-button shape="round" color="dark" fill="clear" size="full" >
+        <ion-button shape="round" color="dark" fill="clear" size="full" [routerLink]="['/register']" routerLinkActive="router-link-active">
           Register
         </ion-button>
       </ion-card-content>

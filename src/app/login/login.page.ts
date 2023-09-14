@@ -11,5 +11,7 @@ export class LoginPage implements OnInit {
 
   ngOnInit() {
   }
-
+  RedirectToRecuperatePage() {
+    console.log("button is pressed");
+  }
 }
